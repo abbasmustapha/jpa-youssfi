@@ -36,7 +36,6 @@ public class JpaYoussfiApplication {
 			u3.setPassword("adminpwd");
 			userService.addNewUser(u3);
 
-
 			Stream.of("STUDENT","USER","ADMIN").forEach(
 					r->{
 						Role r1 = new Role();
